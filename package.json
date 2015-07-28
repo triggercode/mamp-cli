@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install && ln -s $(pwd)/mamp-cli ~/bin/mamp"
   },
   "author": "",
   "license": "ISC",
