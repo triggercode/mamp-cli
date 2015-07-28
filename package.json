@@ -1,14 +1,16 @@
 {
   "name": "mamp-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Command line interface to work with the popular MAMP server environment",
+  "main": "mamp-cli",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "setup": "npm install && ln -s $(pwd)/mamp-cli ~/bin/mamp"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "bin": {
+    "mamp": "./mamp-cli"
+  },
+  "author": "Tobias Braner",
+  "license": "MIT",
   "dependencies": {
     "child-process-promise": "^1.1.0",
     "lodash": "^3.10.0",

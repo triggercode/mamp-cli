@@ -24,10 +24,9 @@ Please __backup your httpd.conf__ file of your MAMP before using this script. It
 
 ### Installation
 
-1. clone this project
-2. $ npm run setup
+    $ npm install -g mamp-cli
 
-The setup script will install all needed modules and __create a symlink__ to the script under ~/bin/mamp .
+Depending on your setup you might need __sudo__ in front of this command.
 
 ### Usage
 
