@@ -1,9 +1,10 @@
 {
   "name": "mamp-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command line interface to work with the popular MAMP server environment",
   "main": "mamp-cli",
   "homepage": "https://github.com/triggercode/mamp-cli",
+  "keywords": ["MAMP", "CLI"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
