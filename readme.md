@@ -54,6 +54,26 @@ Use this to print the help:
     $ mamp switch <shortcut>
     // switch the document root to the one of your shortcuts
 
+### Version History
+
+##### 0.0.4
+
+- added git repo to package.json
+- mamp switch: set delay time to 10 secs instead of 5 secs
+- started this version history
+
+##### 0.0.3
+
+- npm settings
+
+##### 0.0.2
+
+- npm settings
+
+##### 0.0.1
+
+- initial commit
+
 ### License
 
 See file LICENSE

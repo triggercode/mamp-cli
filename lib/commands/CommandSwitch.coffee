@@ -31,4 +31,4 @@ module.exports = class CommandSwitch
     , 1000
     setTimeout ->
       new CommandStart
-    , 5000
+    , 10000
