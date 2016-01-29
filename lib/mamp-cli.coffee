@@ -1,5 +1,3 @@
-#!/usr/bin/env coffee
-
 # TODO:
 # - work more with promises, e.g. while starting and stopping
 # - error handling of e.g. shortcuts are not yet defined

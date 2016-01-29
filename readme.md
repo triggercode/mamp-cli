@@ -14,7 +14,7 @@ Please __backup your httpd.conf__ file of your MAMP before using this script. It
 
 - MAMP (tested with 3.0.7.3)
 - Node.js
-- Coffee-Script ($ npm install -g coffee-script)
+- < 0.0.5 Coffee-Script ($ npm install -g coffee-script)
 
 ### How it works
 
@@ -55,6 +55,11 @@ Use this to print the help:
     // switch the document root to the one of your shortcuts
 
 ### Version History
+
+
+##### 0.0.5
+
+- coffee-script does not need to installed globally any more
 
 ##### 0.0.4
 

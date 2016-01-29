@@ -1,6 +1,6 @@
 {
   "name": "mamp-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Command line interface to work with the popular MAMP server environment",
   "main": "mamp-cli",
   "homepage": "https://github.com/triggercode/mamp-cli",
@@ -8,17 +8,21 @@
     "type": "git",
     "url": "https://github.com/triggercode/mamp-cli.git"
   },
-  "keywords": ["MAMP", "CLI"],
+  "keywords": [
+    "MAMP",
+    "CLI"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "mamp": "./mamp-cli"
+    "mamp": "./bin/mamp-cli.js"
   },
   "author": "Tobias Braner",
   "license": "MIT",
   "dependencies": {
     "child-process-promise": "^1.1.0",
+    "coffee-script": "^1.10.0",
     "lodash": "^3.10.0",
     "minimist": "^1.1.2"
   }
