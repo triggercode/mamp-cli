@@ -3,7 +3,7 @@
 # - error handling of e.g. shortcuts are not yet defined
 
 argv = require('minimist')(process.argv.slice(2))
-Commander = require './lib/Commander'
+Commander = require './Commander'
 
 commander = new Commander argv['_'], argv
 commander.execCommand()
