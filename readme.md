@@ -56,10 +56,14 @@ Use this to print the help:
 
 ### Version History
 
+##### 0.0.6
+
+- Bugfix, thanks to PR from @cnrk
 
 ##### 0.0.5
 
-- coffee-script does not need to installed globally any more
+- coffee-script does not need to installed globally any morem
+
 
 ##### 0.0.4
 
