@@ -14,7 +14,6 @@ Please __backup your httpd.conf__ file of your MAMP before using this script. It
 
 - MAMP (tested with 3.0.7.3)
 - Node.js
-- < 0.0.5 Coffee-Script ($ npm install -g coffee-script)
 
 ### How it works
 
@@ -54,7 +53,14 @@ Use this to print the help:
     $ mamp switch <shortcut>
     // switch the document root to the one of your shortcuts
 
+    $ mamp cwd
+    // set the current working directory as document root
+
 ### Version History
+
+##### 0.0.6
+
+- added the command 'cwd' to set the current working directory as document root
 
 ##### 0.0.6
 
