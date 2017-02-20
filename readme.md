@@ -50,17 +50,21 @@ Use this to print the help:
     $ mamp remove <shortcut>
     // remove a shortcut
 
-    $ mamp switch <shortcut>
-    // switch the document root to the one of your shortcuts
+    $ mamp switch <shortcut|path>
+    // switch the document root to the one of your shortcuts or directly pass a path
 
     $ mamp cwd
     // set the current working directory as document root
 
 ### Version History
 
-##### 0.0.6
+##### 0.0.8
 
-- added the command 'cwd' to set the current working directory as document root
+- added the possibility to pass a path to `mamp switch`
+
+##### 0.0.7
+
+- added the command `mamp cwd` to set the current working directory as document root
 
 ##### 0.0.6
 

@@ -1,6 +1,6 @@
 {
   "name": "mamp-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Command line interface to work with the popular MAMP server environment",
   "main": "mamp-cli",
   "homepage": "https://github.com/triggercode/mamp-cli",
