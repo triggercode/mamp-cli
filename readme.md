@@ -58,6 +58,10 @@ Use this to print the help:
 
 ### Version History
 
+#### Unreleased
+
+- updated `mamp add` command to log error if `<shortcut>` argument is missing.
+
 ##### 0.0.8
 
 - added the possibility to pass a path to `mamp switch`
