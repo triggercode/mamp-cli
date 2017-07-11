@@ -58,9 +58,9 @@ Use this to print the help:
 
 ### Version History
 
-#### Unreleased
+##### 0.0.9
 
-- updated `mamp add` command to log error if `<shortcut>` argument is missing.
+- updated `mamp add` command to log error if `<shortcut>` argument is missing. (@jrmykolyn)
 
 ##### 0.0.8
 
