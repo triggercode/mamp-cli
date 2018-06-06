@@ -41,6 +41,9 @@ Use this to print the help:
     $ mamp stop
     // stop the server
 
+    $ mamp restart
+    // restart the Apache, run with sudo
+
     $ mamp list
     // list your favorite shortcuts
 
@@ -57,6 +60,10 @@ Use this to print the help:
     // set the current working directory as document root
 
 ### Version History
+
+##### 0.1.0
+
+- added `mamp restart` that runs `apachectl -k graceful` in background (run with sudo)
 
 ##### 0.0.9
 

@@ -1,6 +1,6 @@
 {
   "name": "mamp-cli",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Command line interface to work with the popular MAMP server environment",
   "main": "mamp-cli",
   "homepage": "https://github.com/triggercode/mamp-cli",
@@ -23,6 +23,7 @@
   "dependencies": {
     "child-process-promise": "^1.1.0",
     "coffee-script": "^1.10.0",
+    "is-root": "^2.0.0",
     "lodash": "^3.10.0",
     "minimist": "^1.1.2"
   }

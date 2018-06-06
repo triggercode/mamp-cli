@@ -7,3 +7,4 @@ module.exports = ->
   console.log "\t$ mamp switch <shortcut>\n\t  Switch the webroot of the server to <shortcut>\n"
   console.log "\t$ mamp start\n\t  Start mamp\n"
   console.log "\t$ mamp stop\n\t  Stop mamp\n"
+  console.log "\t$ mamp restart\n\t  Restart Apache\n"
